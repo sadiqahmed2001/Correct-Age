@@ -48,8 +48,8 @@ the below is the code:-
 #         self.month_birth = int(input("Enter the month of birth (MM): "))
 #         self.day_birth = int(input("Enter the day of birth (DD): "))
 #         self.date_birth=datetime.date(self.year_birth,self.month_birth,self.day_birth)
-#         print(f"your name is {self.name}, your age is {self.age} and your date of birth is {self.date_birth}")
-#         speak(f"your name is {self.name}, your age is {self.age} and your date of birth is {self.date_birth}")
+#         print(f"your name is {self.name}, your age is {self.age} and your date of birth is {self.date_birth}, place of birth {self.country}")
+#         speak(f"your name is {self.name}, your age is {self.age} and your date of birth is {self.date_birth}, place of birth is {self.country}")
 #     def find(self):
 #         today=datetime.date.today()
 #         age=today-self.date_birth
