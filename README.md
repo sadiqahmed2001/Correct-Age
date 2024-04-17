@@ -10,7 +10,7 @@ It starts a pyttsx3 engine, sets settings like rate (speed of speech) and loudne
 Classification: human
 This class portrays the human being.
 Constructor (the __init__ method)
-It initializes numerous characteristics of a person object, including name, age, and date_of_birth.
+It initializes numerous characteristics of a person object, including name, age, and date_of_birth.  
 It invites the user to enter the name, age, year of birth, month of birth, and day of birth of a person.
 It uses the datetime.date class to compute the user's birth date.
 It prints and reads the entered information about the person.
